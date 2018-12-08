@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Dev\Visual Studio 2017\Projects\DashDocs\DashDocs\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Dev\Visual Studio 2017\Projects\DashDocs\DashDocs\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Dev\Visual Studio 2017\Projects\DashDocs\DashDocs\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

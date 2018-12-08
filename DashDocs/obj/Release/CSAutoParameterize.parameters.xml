@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DashDocsContext-Web.config Connection String" description="DashDocsContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:dashdocsdev.database.windows.net,1433;Initial Catalog=DashDocsDec;Persist Security Info=False;User ID=sgentile;Password=5linuxLover;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Dev\\Visual\ Studio\ 2017\\Projects\\DashDocs\\DashDocs\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DashDocsContext']/@connectionString" />
+  </parameter>
+  <parameter name="DocumentStore-Web.config Connection String" description="DocumentStore Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=dashdocsstorage;AccountKey=+1fjGRRQVbP6ICndVFx8iDfxWBLvIH0zo9UNCWmPg5KxUGxEC+eWq2R8MKMXikCkOiuD1jwdZSQpqNjxVlYt7A==;EndpointSuffix=core.windows.net" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Dev\\Visual\ Studio\ 2017\\Projects\\DashDocs\\DashDocs\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DocumentStore']/@connectionString" />
+  </parameter>
+</parameters>
